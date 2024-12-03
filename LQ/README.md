@@ -18,7 +18,7 @@ The repository is organized as follows:
 * **M_CBO_case1/**: Contains code for M-CBO method for terminal cost $g(\mathbf{x})=\ln\frac{1+\|\mathbf{x}\|^2}{2}$ in $2,4,8,16$ dimensional probelms.
 
 
-* **value_function_case1/**: Contains code to compute the value function by take exception of the controled SDE for terminal cost $ g(\mathbf{x})=\ln\frac{1+\|\mathbf{x}\|^2}{2}$  in $2$ dimensional probelms.
+* **value_function_case1/**: Contains code to compute the value function by take exception of the controled SDE for terminal cost $g(\mathbf{x})=\ln\frac{1+\|\mathbf{x}\|^2}{2}$  in $2$ dimensional probelms.
 
-* **value_function_case2/**: Contains code to compute the value function by take exception of the controled SDE for terminal cost $ g(\mathbf{x})=\ln\frac{1+(\|\mathbf{x}\|^2- 1)^2}{2}  $ in $2$ dimensional probelms.
+* **value_function_case2/**: Contains code to compute the value function by take exception of the controled SDE for terminal cost $g(\mathbf{x})=\ln\frac{1+(\|\mathbf{x}\|^2- 1)^2}{2}$ in $2$ dimensional probelms.
 
