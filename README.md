@@ -41,7 +41,7 @@ The repository is organized as follows:
 
 
 ## Result
-The figure shows the value function $u(t,x)$ in one-dimensional case  computed by BSDE method, MC Estimation(*reference*), and Adam-CBO (*our method*) with terminal cost $ g( x) = \ln \frac{1 + (\|   x \|^2 - 1)^2}{2} $. 
+The figure shows the value function $u(t,x)$ in one-dimensional case  computed by BSDE method, MC Estimation(*reference*), and Adam-CBO (*our method*) with terminal cost $g(x)=\ln\frac{1+ (\|x\|^2-1)^2}{2} $. 
 ![image](result/value_function_1D_case2.png)
 
 ## References
