@@ -1,0 +1,16 @@
+#!/bin/bash --login
+#SBATCH -J Deepmd_mixed
+#SBATCH -N 1
+#SBATCH -n 10
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=48:00:00
+#SBATCH --mem=128G
+#SBATCH -A data-machine
+
+ml purge
+ml Miniforge3
+conda activate jax
+which python3
+which python
+unset PYTHONPATH
+python3 -u train.py --dim 4
